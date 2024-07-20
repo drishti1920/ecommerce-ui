@@ -1,0 +1,36 @@
+.InstaFooter{
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    margin: 4rem 0;
+    height: 10rem;
+    position: relative;
+}
+
+.ImageContainer{
+    width: 12rem;
+}
+
+.ImageContainer img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.8);
+}
+
+.InstaLink{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+    background-color: #fff;
+
+}
+
+.InstaLink p{
+    color: #854b3c;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+

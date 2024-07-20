@@ -1,0 +1,64 @@
+.WishlistPage {
+  min-height: 57vh;
+}
+
+.WishlistTable {
+  width: 100vw;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 72px 0px 0 72px;
+  /* border-spacing: 20px 10px; */
+}
+
+.WishlistTable thead {
+  width: 85%;
+}
+.WishlistTable tbody {
+  width: 85%;
+}
+
+.WishlistTable tr {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.WishlistTable thead th {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  padding: 16px 12px;
+  min-width: 15rem;
+}
+
+.WishlistTable thead th:first-child {
+  min-width: 31rem;
+}
+
+.WishlistTable tbody tr td {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #000;
+  padding: 16px 12px;
+  min-width: 15rem;
+}
+
+.WishlistTable tbody tr td:first-child {
+  min-width: 31rem;
+}
+.WishlistImage {
+    width: 86px;
+    height: 94px;
+    margin: 0 17px 0 0px;
+}
+
+.addToCart{
+    cursor: pointer;
+    color: #854b3c;
+    font-weight: 600;
+}
