@@ -18,7 +18,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 250) {
+      if (window.scrollY >= 250) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
